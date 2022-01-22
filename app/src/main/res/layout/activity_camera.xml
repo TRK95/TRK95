@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <org.opencv.android.JavaCameraView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_Surface"/>
+    <Button
+        android:id="@+id/flip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_buttom"
+        android:text="flip"
+        android:textColor="#a434eb"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:id="@+id/expression"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#a434eb"
+        android:background="@drawable/custom_buttom"
+        android:text="expression"
+        android:layout_gravity="top"/>
+
+
+
+    <Button
+        android:id="@+id/object"
+        android:text="Object"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#a434eb"
+        android:background="@drawable/custom_buttom"
+        android:layout_gravity="bottom"/>
+    <Button
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_buttom"
+        android:text="Text"
+        android:textColor="#a434eb"
+        android:layout_gravity="left"/>
+    <Button
+        android:id="@+id/person"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@drawable/custom_buttom"
+        android:text="Person"
+        android:textColor="#a434eb"
+        android:layout_gravity="right"/>
+
+
+
+
+
+</FrameLayout>
